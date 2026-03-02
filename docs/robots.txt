@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: /sitemap.xml
+Sitemap: https://nickeubank.github.io/native_american_dislocation_site/sitemap.xml
