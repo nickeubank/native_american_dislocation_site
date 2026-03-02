@@ -1,0 +1,4 @@
+# Hugo build output (keep docs/ for GitHub Pages, ignore the rest)
+/public/
+/.hugo_build.lock
+/resources/
