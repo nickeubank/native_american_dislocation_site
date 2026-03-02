@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Figures on Native American Dislocation</title>
+    <link>https://nickeubank.github.io/native_american_dislocation_site/figures/</link>
+    <description>Recent content in Figures on Native American Dislocation</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://nickeubank.github.io/native_american_dislocation_site/figures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dislocation Maps (Absolute)</title>
+      <link>https://nickeubank.github.io/native_american_dislocation_site/figures/dislocation-maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nickeubank.github.io/native_american_dislocation_site/figures/dislocation-maps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dislocation Maps (Proportional)</title>
+      <link>https://nickeubank.github.io/native_american_dislocation_site/figures/proportional-dislocation-maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nickeubank.github.io/native_american_dislocation_site/figures/proportional-dislocation-maps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>District Native Share Histograms</title>
+      <link>https://nickeubank.github.io/native_american_dislocation_site/figures/district-native-share/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nickeubank.github.io/native_american_dislocation_site/figures/district-native-share/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Native Representation Probability Plots</title>
+      <link>https://nickeubank.github.io/native_american_dislocation_site/figures/probability-plots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nickeubank.github.io/native_american_dislocation_site/figures/probability-plots/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

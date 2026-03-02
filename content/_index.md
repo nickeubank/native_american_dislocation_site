@@ -23,8 +23,11 @@ We undertake the first systematic, cross-state investigation of the relationship
 
 This repository contains data and additional plots that supplement the analyses in the paper, including:
 
-- **Additional figures** — supplementary visualizations not included in the main paper, such as analyses using proportional dislocation values alongside the absolute dislocation values reported in the text
-- **Replication data** — underlying data used to produce the paper's results
+- **[Probability Plots](figures/probability-plots/)** — likelihood of electing a Native representative as a function of district Native VAP, for both redistricting cycles and by chamber and state
+- **[District Native Share Histograms](figures/district-native-share/)** — distribution of state legislative districts by Native VAP, showing which districts did and did not elect a Native representative
+- **[Dislocation Maps (Absolute)](figures/dislocation-maps/)** — absolute dislocation values by district for all seven states with significant Native populations, for both redistricting cycles
+- **[Dislocation Maps (Proportional)](figures/proportional-dislocation-maps/)** — analogous analyses using proportional dislocation values (the conventional measure in the partisan gerrymandering literature)
+- **Replication data** — underlying data used to produce the paper's results *(coming soon)*
 - **Replication code** — code to reproduce all analyses *(coming soon)*
 
 ---
