@@ -4,7 +4,7 @@
 
 # Update baseURL to match your GitHub Pages URL once the repo is created:
 #   https://YOUR_GITHUB_USERNAME.github.io/native_american_dislocation/
-baseURL = "/"
+baseURL = "https://nickeubank.github.io/native_american_dislocation_site/"
 theme = "congo"
 publishDir = "docs"
 
