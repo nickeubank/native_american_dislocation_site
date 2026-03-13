@@ -5,9 +5,10 @@ layout: "page"
 
 Select a state to view district maps for both redistricting cycles:
 
+- [Alaska](alaska/)
 - [Arizona](arizona/)
 - [Montana](montana/)
-- [North Dakota](north-dakota/)
 - [New Mexico](new-mexico/)
+- [North Dakota](north-dakota/)
 - [South Dakota](south-dakota/)
 - [Wyoming](wyoming/)

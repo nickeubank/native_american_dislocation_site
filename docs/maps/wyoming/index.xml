@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wyoming on Native American Dislocation</title>
-    <link>https://nativeamericanrepresentation.org/maps/wyoming/</link>
+    <link>http://localhost:1313/maps/wyoming/</link>
     <description>Recent content in Wyoming on Native American Dislocation</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://nativeamericanrepresentation.org/maps/wyoming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/maps/wyoming/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
