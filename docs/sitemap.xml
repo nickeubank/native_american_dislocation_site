@@ -4,75 +4,13 @@
   
     
       <url>
-            <loc>http://localhost:1313/maps/</loc>
+            <loc>https://nativeamericanrepresentation.org/maps/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/maps/arizona/</loc>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/figures/dislocation-maps/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/figures/proportional-dislocation-maps/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/figures/district-native-share/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/figures/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/maps/montana/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/figures/probability-plots/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/maps/new-mexico/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/maps/north-dakota/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/maps/south-dakota/</loc>
+            <loc>https://nativeamericanrepresentation.org/maps/arizona/</loc>
           </url>
     
   
@@ -80,7 +18,69 @@
   
     
       <url>
-            <loc>http://localhost:1313/maps/wyoming/</loc>
+            <loc>https://nativeamericanrepresentation.org/figures/dislocation-maps/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nativeamericanrepresentation.org/figures/proportional-dislocation-maps/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nativeamericanrepresentation.org/figures/district-native-share/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nativeamericanrepresentation.org/figures/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nativeamericanrepresentation.org/maps/montana/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nativeamericanrepresentation.org/figures/probability-plots/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nativeamericanrepresentation.org/maps/new-mexico/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nativeamericanrepresentation.org/maps/north-dakota/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nativeamericanrepresentation.org/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nativeamericanrepresentation.org/maps/south-dakota/</loc>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://nativeamericanrepresentation.org/maps/wyoming/</loc>
           </url>
     
   
