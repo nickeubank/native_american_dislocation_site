@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Figures on Native American Dislocation</title>
-    <link>https://nativeamericanrepresentation.org/figures/</link>
+    <link>http://localhost:1313/figures/</link>
     <description>Recent content in Figures on Native American Dislocation</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://nativeamericanrepresentation.org/figures/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/figures/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dislocation Maps (Absolute)</title>
-      <link>https://nativeamericanrepresentation.org/figures/dislocation-maps/</link>
+      <link>http://localhost:1313/figures/dislocation-maps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nativeamericanrepresentation.org/figures/dislocation-maps/</guid>
+      <guid>http://localhost:1313/figures/dislocation-maps/</guid>
       <description></description>
     </item>
     <item>
       <title>Dislocation Maps (Proportional)</title>
-      <link>https://nativeamericanrepresentation.org/figures/proportional-dislocation-maps/</link>
+      <link>http://localhost:1313/figures/proportional-dislocation-maps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nativeamericanrepresentation.org/figures/proportional-dislocation-maps/</guid>
+      <guid>http://localhost:1313/figures/proportional-dislocation-maps/</guid>
       <description></description>
     </item>
     <item>
       <title>District Native Share Histograms</title>
-      <link>https://nativeamericanrepresentation.org/figures/district-native-share/</link>
+      <link>http://localhost:1313/figures/district-native-share/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nativeamericanrepresentation.org/figures/district-native-share/</guid>
+      <guid>http://localhost:1313/figures/district-native-share/</guid>
       <description></description>
     </item>
     <item>
       <title>Native Representation Probability Plots</title>
-      <link>https://nativeamericanrepresentation.org/figures/probability-plots/</link>
+      <link>http://localhost:1313/figures/probability-plots/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nativeamericanrepresentation.org/figures/probability-plots/</guid>
+      <guid>http://localhost:1313/figures/probability-plots/</guid>
       <description></description>
     </item>
   </channel>

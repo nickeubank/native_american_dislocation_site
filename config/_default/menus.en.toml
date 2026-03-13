@@ -1,26 +1,21 @@
 # -- Main Menu --
 
 [[main]]
-  name = "Figures"
-  pageRef = "figures"
+  name = "Home"
+  url = "/"
+  weight = 5
+
+[[main]]
+  name = "Paper"
+  url = "/replication_materials/30_paper/native_representation.pdf"
   weight = 10
 
 [[main]]
-  name = "Probability Plots"
-  pageRef = "figures/probability-plots"
+  name = "Maps"
+  pageRef = "maps"
   weight = 20
 
 [[main]]
-  name = "District Native Share"
-  pageRef = "figures/district-native-share"
+  name = "Replication Materials"
+  url = "https://github.com/nickeubank/native_american_dislocation_site/replication_materials"
   weight = 30
-
-[[main]]
-  name = "Dislocation Maps"
-  pageRef = "figures/dislocation-maps"
-  weight = 40
-
-[[main]]
-  name = "Proportional Dislocation"
-  pageRef = "figures/proportional-dislocation-maps"
-  weight = 50

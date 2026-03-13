@@ -3,4 +3,6 @@
 /.hugo_build.lock
 /resources/
 **/.DS_Store
-**/replication_materials/*
+**/replication_materials
+**/*.bbl
+**/*.synctex.gz

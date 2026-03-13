@@ -3,43 +3,85 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
-  
-    
       <url>
-            <loc>https://nativeamericanrepresentation.org/figures/dislocation-maps/</loc>
+            <loc>http://localhost:1313/maps/</loc>
           </url>
     
   
     
       <url>
-            <loc>https://nativeamericanrepresentation.org/figures/proportional-dislocation-maps/</loc>
+            <loc>http://localhost:1313/maps/arizona/</loc>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/figures/dislocation-maps/</loc>
           </url>
     
   
     
       <url>
-            <loc>https://nativeamericanrepresentation.org/figures/district-native-share/</loc>
+            <loc>http://localhost:1313/figures/proportional-dislocation-maps/</loc>
           </url>
     
   
     
       <url>
-            <loc>https://nativeamericanrepresentation.org/figures/</loc>
+            <loc>http://localhost:1313/figures/district-native-share/</loc>
           </url>
     
   
     
       <url>
-            <loc>https://nativeamericanrepresentation.org/figures/probability-plots/</loc>
+            <loc>http://localhost:1313/figures/</loc>
           </url>
     
   
     
       <url>
-            <loc>https://nativeamericanrepresentation.org/</loc>
+            <loc>http://localhost:1313/maps/montana/</loc>
           </url>
     
   
+    
+      <url>
+            <loc>http://localhost:1313/figures/probability-plots/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/maps/new-mexico/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/maps/north-dakota/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/maps/south-dakota/</loc>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/maps/wyoming/</loc>
+          </url>
     
   
 </urlset>
