@@ -1,0 +1,17 @@
+states:
+    "02": Alaska
+    "04": Arizona
+    "30": Montana
+    "35": New Mexico
+    "38": North Dakota
+    "46": South Dakota
+    "56": Wyoming
+
+samples:
+    "02": 0.05
+    "04": 0.05
+    "30": 0.05
+    "35": 0.05
+    "38": 0.05
+    "46": 0.05
+    "56": 0.05

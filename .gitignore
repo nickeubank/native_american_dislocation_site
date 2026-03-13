@@ -3,6 +3,9 @@
 /.hugo_build.lock
 /resources/
 **/.DS_Store
-**/replication_materials
+**/replication_materials/00_source_data/2010_census_blockgroups
+**/replication_materials/00_source_data/Blasingame_Replication
+**/replication_materials/00_source_data/state_legislative_districts
+**/replication_materials/00_source_data/vote_data
 **/*.bbl
 **/*.synctex.gz

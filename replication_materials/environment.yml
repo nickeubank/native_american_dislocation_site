@@ -1,0 +1,22 @@
+name: native_rep
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas=3.0
+  - numpy=2.4
+  - geopandas=1.1
+  - matplotlib=3.10
+  - seaborn=0.13
+  - joblib=1.5
+  - fastparquet
+  - pyyaml
+  - tabulate
+  - us
+  - tar
+  - xz
+  - pip
+  - pip:
+      - partisan-dislocation==0.8
+      - seaborn_objects_recipes

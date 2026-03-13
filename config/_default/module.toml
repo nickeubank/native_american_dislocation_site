@@ -1,3 +1,19 @@
 [hugoVersion]
   extended = true
   min = "0.87.0"
+
+[[mounts]]
+  source = "static"
+  target = "static"
+
+[[mounts]]
+  source = "replication_materials/30_paper/maps/general_maps"
+  target = "static/maps"
+
+[[mounts]]
+  source = "replication_materials/30_paper/figures"
+  target = "static/replication_materials/30_paper/figures"
+
+[[mounts]]
+  source = "replication_materials/30_paper/maps"
+  target = "static/replication_materials/30_paper/maps"

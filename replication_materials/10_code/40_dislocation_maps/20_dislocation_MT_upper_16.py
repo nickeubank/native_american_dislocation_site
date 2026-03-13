@@ -1,0 +1,191 @@
+import re
+
+import geopandas as gpd
+import numpy as np
+import pandas as pd
+import partisan_dislocation as pdn
+import us
+import yaml
+
+# Load states we want.
+# This imports the yaml file in the code folder.
+# We use the list of states and their fips codes a lot, so
+# just saving in one place.
+# This loads
+
+with open("../config.yaml", "r") as ymlfile:
+    cfg = yaml.safe_load(ymlfile)
+states = cfg["states"]
+samples = cfg["samples"]
+
+
+state_abbrevs = {fips: us.states.lookup(fips).abbr for fips in states.keys()}
+
+###########
+#
+# Plot states
+#
+###########
+
+short_level = {"upper": "u", "lower": "l"}
+
+
+def plot_points(
+    state_fips, level, census_year, sample_pct, map_year, color="PiYG", legend=True
+):
+
+    # Projection
+    if state_fips != "02":
+        projection = "EPSG:32613"
+    else:
+        projection = "ESRI:102010"
+
+    # Get points
+    points = gpd.read_file(
+        f"../../20_intermediate_data/30_dislocation/"
+        f"dislocation_map{map_year}_{state_fips}_census{census_year}_{level}_{sample_pct * 100:.0f}pct.geojson"
+    )
+    points = points.to_crs(projection)
+    extrem = np.abs(points.partisan_dislocation).max()
+
+    # Get districts
+    districts = gpd.read_file(
+        f"../../00_source_data/state_legislative_districts/{map_year}/"
+        f"{states[state_fips]}/{level}/"
+        f"tl_{map_year}_{state_fips}_sld{short_level[level]}.shp"
+    )
+
+    districts = districts.to_crs(projection)
+
+    ai = points[points.ai == 1].copy()
+    non_ai = points[points.ai == 0].copy()
+
+    ax = non_ai.plot(color="grey", markersize=5, alpha=0.5, figsize=(12, 6))
+
+    ai.plot(
+        "partisan_dislocation",
+        ax=ax,
+        cmap=color,
+        legend=legend,
+        legend_kwds={"shrink": 0.8, "aspect": 20, "pad": 0.02},
+        vmin=-extrem,
+        vmax=extrem,
+        markersize=7,
+        alpha=0.8,
+    )
+    ax.set_title(
+        states[state_fips]
+        + "\n"
+        + level.capitalize()
+        + f" Legislative Chamber Districts in {map_year-1}",
+        fontsize=16,
+    )
+
+    # Add rotated text alongside the colorbar
+
+    # text
+    SPACES = 35
+    ax.text(
+        1.16,
+        0.5,
+        f'Native Racial Dislocation\nConcentrated{" "*SPACES}Diluted      \n("Packed"){" "*SPACES}("Cracked") ',
+        transform=ax.transAxes,
+        rotation=270,
+        va="center",
+        ha="center",
+        fontsize=12,
+    )
+
+    dist_scores = points.groupby("NAMELSAD", as_index=False)[
+        ["partisan_dislocation", "knn_shr_ai", "district_ai_share"]
+    ].mean()
+
+    dist = pd.merge(
+        districts,
+        dist_scores,
+        on="NAMELSAD",
+        how="outer",
+        validate="1:1",
+        indicator=True,
+    )
+    dist._merge.value_counts()
+
+    dist.boundary.plot(ax=ax, edgecolor="black", linewidth=0.5)
+
+    gpd.GeoSeries([dist.geometry.union_all()]).boundary.plot(
+        ax=ax, edgecolor="black", linewidth=1
+    )
+
+    hand_adjustments = {
+        "19": (-25_000, 100_000),
+        "14": (15_000, -10_000),
+        "15": (15_000, 20_000),
+        "16": (2_000, -5_000),
+    }
+
+    def add_district_label(x):
+
+        coords = x.geometry.centroid.coords[0]
+
+        if x["dist_num"] in hand_adjustments.keys():
+            coords = (
+                coords[0] + hand_adjustments[x["dist_num"]][0],
+                coords[1] + hand_adjustments[x["dist_num"]][1],
+            )
+
+        ax.annotate(
+            text=f'Dist {x["dist_num"]}\n{x["district_ai_share"]:.0%} AI',
+            xy=coords,
+            ha="center",
+            fontsize=12,
+            weight="bold",
+        )
+
+    dist["dist_num"] = dist["NAMELSAD"].str.replace(
+        "State (Senate|House) District ", "", regex=True
+    )
+    dist.apply(add_district_label, axis=1)
+
+    ax.set_xlim([80_000, 575_000])
+    ax.set_ylim([5_200_000, 5_440_000])
+    ax.set_axis_off()
+
+    # Adjust layout to add more space at the bottom
+    ax.figure.subplots_adjust(bottom=0.25)
+
+    # Add note below the plot
+    ax.figure.text(
+        0.13,
+        0.05,
+        f"{map_year-1} Montana State Senate district map. District American Indian (AI) share of Voting Age"
+        "\nPopulation shown under district name. "
+        f"Each point is a representative voter generated from a "
+        f"\n5% sample of Voting Age Population in {census_year} census. "
+        "Colored dots are individuals "
+        "\nwho identify as any-part Native American. Grey dots are individuals who did not identify "
+        "as \nany part Native American.",
+        ha="left",
+        va="bottom",
+        fontsize=12,
+    )
+
+    ax.figure.savefig(
+        f"../../30_paper/maps/"
+        f"MT_{level}16_specific_map{map_year}_{state_abbrevs[state_fips]}_census{census_year}_{sample_pct * 100:.0f}pct.pdf"
+    )
+
+    ax.figure.savefig(
+        f"../../30_paper/maps/"
+        f"MT_{level}16_specific_map{map_year}_{state_abbrevs[state_fips]}_census{census_year}_{sample_pct * 100:.0f}pct.png"
+    )
+    print(ax)
+
+
+plot_points(
+    state_fips="30",
+    level="upper",
+    census_year=2020,
+    color="PiYG",
+    map_year=2023,
+    sample_pct=samples["30"],
+)
