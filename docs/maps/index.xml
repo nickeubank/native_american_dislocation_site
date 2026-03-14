@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Additional Maps on Native American Dislocation</title>
-    <link>http://localhost:1313/maps/</link>
+    <link>https://nativeamericanrepresentation.org/maps/</link>
     <description>Recent content in Additional Maps on Native American Dislocation</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/maps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nativeamericanrepresentation.org/maps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alaska</title>
-      <link>http://localhost:1313/maps/alaska/</link>
+      <link>https://nativeamericanrepresentation.org/maps/alaska/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/maps/alaska/</guid>
+      <guid>https://nativeamericanrepresentation.org/maps/alaska/</guid>
       <description></description>
     </item>
     <item>
       <title>Arizona</title>
-      <link>http://localhost:1313/maps/arizona/</link>
+      <link>https://nativeamericanrepresentation.org/maps/arizona/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/maps/arizona/</guid>
+      <guid>https://nativeamericanrepresentation.org/maps/arizona/</guid>
       <description></description>
     </item>
     <item>
       <title>Montana</title>
-      <link>http://localhost:1313/maps/montana/</link>
+      <link>https://nativeamericanrepresentation.org/maps/montana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/maps/montana/</guid>
+      <guid>https://nativeamericanrepresentation.org/maps/montana/</guid>
       <description></description>
     </item>
     <item>
       <title>New Mexico</title>
-      <link>http://localhost:1313/maps/new-mexico/</link>
+      <link>https://nativeamericanrepresentation.org/maps/new-mexico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/maps/new-mexico/</guid>
+      <guid>https://nativeamericanrepresentation.org/maps/new-mexico/</guid>
       <description></description>
     </item>
     <item>
       <title>North Dakota</title>
-      <link>http://localhost:1313/maps/north-dakota/</link>
+      <link>https://nativeamericanrepresentation.org/maps/north-dakota/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/maps/north-dakota/</guid>
+      <guid>https://nativeamericanrepresentation.org/maps/north-dakota/</guid>
       <description></description>
     </item>
     <item>
       <title>South Dakota</title>
-      <link>http://localhost:1313/maps/south-dakota/</link>
+      <link>https://nativeamericanrepresentation.org/maps/south-dakota/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/maps/south-dakota/</guid>
+      <guid>https://nativeamericanrepresentation.org/maps/south-dakota/</guid>
       <description></description>
     </item>
     <item>
       <title>Wyoming</title>
-      <link>http://localhost:1313/maps/wyoming/</link>
+      <link>https://nativeamericanrepresentation.org/maps/wyoming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/maps/wyoming/</guid>
+      <guid>https://nativeamericanrepresentation.org/maps/wyoming/</guid>
       <description></description>
     </item>
   </channel>

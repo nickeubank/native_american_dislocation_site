@@ -11,9 +11,5 @@
   target = "static/maps"
 
 [[mounts]]
-  source = "replication_materials/30_paper/figures"
-  target = "static/replication_materials/30_paper/figures"
-
-[[mounts]]
-  source = "replication_materials/30_paper/maps"
-  target = "static/replication_materials/30_paper/maps"
+  source = "replication_materials/30_paper"
+  target = "static/replication_materials/30_paper"
