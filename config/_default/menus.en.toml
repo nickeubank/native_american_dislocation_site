@@ -17,5 +17,5 @@
 
 [[main]]
   name = "Replication Materials"
-  url = "https://github.com/nickeubank/native_american_dislocation_site/replication_materials"
+  url = "https://github.com/nickeubank/native_american_dislocation_site/tree/main/replication_materials"
   weight = 30
